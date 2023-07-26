@@ -1,0 +1,44 @@
+body {
+    background-color: azure;
+   
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ form {
+    display: flex;
+    flex-direction: column;
+} 
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid aqua;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color:azure;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+p{
+    text-align: center;
+}
+
+
+
+
+
