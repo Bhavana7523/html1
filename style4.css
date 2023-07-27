@@ -1,0 +1,89 @@
+.container{
+    background-color: aquamarine;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    padding: 5px;
+    margin:80px;
+}
+.container .child1{
+    background-color:antiquewhite;
+    width: 30%;
+    height: 90%;
+    margin-right: 5px 0;
+    border: 1px solid black;
+}
+
+.container .child2{
+    background-color: aqua;
+    width:60%;
+    height: 90%;
+    border: 1px solid black;
+}
+.child3{
+    background-color: antiquewhite;
+    width:30%;
+    height: 90%;
+    border: 1px solid black;
+}
+.container .child1 .child11{
+    background-color:orangered;
+    width: 85%;
+    height: 43%;
+    border: 1px solid black;
+    margin: 5px 7px 5px 5px;
+    padding: 2px;
+}
+
+.container .child1 .child12{
+    background-color:skyblue;
+    width: 85%;
+    height: 43%;
+    border: 1px solid black;
+     margin: 5px 7px 5px 5px;
+    padding: 2px;
+}
+.container .child2 .child21{
+    background-color:antiquewhite;
+    width: 95%;
+    height: 90%;
+    border: 1px solid black;
+    margin: 5px 7px 5px 5px;
+    padding: 2px;
+}
+.container .child2 .child21 .child211{
+    background-color:black;
+    width: 95%;
+    height: 30%;
+    border: 1px solid black;
+    margin: 5px 7px 5px 5px;
+    padding: 2px;
+}
+.container .child2 .child21 .child212{
+    background-color:black;
+    width: 95%;
+    height: 53%;
+    border: 1px solid black;
+    margin: 5px 7px 5px 5px;
+    padding: 2px;
+} 
+.container .child3 .child31{
+    background-color:orangered;
+    width: 90%;
+    height: 43%;
+    border: 1px solid black;
+    margin: 5px 7px 5px 5px;
+    padding: 2px;
+} 
+
+ .container .child3 .child32{
+    background-color:skyblue;
+    width: 90%;
+    height: 43%;
+    border: 1px solid black;
+     margin: 5px 7px 5px 5px;
+    padding: 2px;
+} 
